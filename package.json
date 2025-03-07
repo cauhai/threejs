@@ -2,11 +2,14 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "vercel-login": "vercel login",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "lil-gui": "^0.20.0",
-    "three": "^0.174.0"
+    "three": "^0.174.0",
+    "vercel": "^41.3.2"
   },
   "devDependencies": {
     "vite": "^6.2.0"

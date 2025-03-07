@@ -23,8 +23,8 @@ scene.add(mesh)
 mesh.position.set(0.7, 0.2, -0.5)
 
 const sizes = {
-  width: window.innerWidth - 20,
-  height: window.innerHeight - 100
+  width: window.innerWidth - 200,
+  height: window.innerHeight - 200
 }
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.z = 3
