@@ -11,12 +11,14 @@ npm start
 # DEPLOY ONTO VERCEL
 
 Get a Vercel account (mine uses github login)
-
+Do this once
 ```
 npm run deploy
 ```
 
 From now when you git push, Vercel does CICD for you.
+
+[The app on Vercel](https://threejs-cauhai.vercel.app)
 
 
 
